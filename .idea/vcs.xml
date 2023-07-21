@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Aviom-MVVM/aviom_gocollect_mvvm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flutter/daily_meal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flutter/favorite_place_flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flutter/flutter_chatApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flutter/flutter_crud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flutter/personal_detail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mobile-Security-Framework-MobSF" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/GoCollectCloud/GoCollectCloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/MGL OLD SDK PROJECT/mgl-gocollect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/QRCodeGenerator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/android-payments-sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/android-quickstarts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/architecture-components-samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/arthan_gocollect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/aviom-gocollect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/cloudgocollectmvvm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/credility-tracker-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/dhfl-gocollect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/fed android 12/fed android 12/fed-bank" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/icollect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/ikf-gocollect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/inapp-payment-samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/mgl-gocollect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/midland_gocollect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/restring-sample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/srg-collection-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Projects/vij-electronic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Traning Apps/MasterSync" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mlkit" vcs="Git" />
+  </component>
+</project>
