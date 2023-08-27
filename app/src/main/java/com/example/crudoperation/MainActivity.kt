@@ -7,14 +7,17 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Devices
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.example.compose.AppTheme
 import com.example.crudoperation.ui.MainViewModel
 import com.example.crudoperation.ui.MainViewModelFactory
 import com.example.crudoperation.ui.MyDatabase
 import com.example.crudoperation.ui.Repository
 import com.example.crudoperation.ui.SetupNavGraph
-import com.example.crudoperation.ui.theme.CrudOperationTheme
 
 
 class MainActivity : ComponentActivity() {
@@ -27,7 +30,7 @@ class MainActivity : ComponentActivity() {
         val repository = Repository(myDatabase.getDao())
         val mainViewModel by viewModels<MainViewModel> (factoryProducer = { MainViewModelFactory(repository = repository) })
         setContent {
-            CrudOperationTheme {
+            AppTheme {
                 navController = rememberNavController()
                 SetupNavGraph(navController = navController,mainViewModel) {
                     onBackPress()
@@ -55,4 +58,12 @@ class MainActivity : ComponentActivity() {
         },2000)
     }
 
+}
+
+@Preview(showBackground = true, device = Devices.PIXEL_4)
+@Composable
+fun SetUpNavigationPreview(){
+    AppTheme {
+        SetupNavGraph(navController = rememberNavController()) {}
+    }
 }
